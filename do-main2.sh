@@ -1,7 +1,7 @@
 #! /bin/bash
 # branch="20201215/main"
 branch="20201215/Neutrino-X"
-BuilderKernel="00000"
+BuilderKernel="clang"
 
 if [ "$BuilderKernel" != "clang" ] && [ "$BuilderKernel" != "dtc" ] && [ "$BuilderKernel" != "gcc" ] ;then
     exit;
